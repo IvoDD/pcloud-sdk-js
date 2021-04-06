@@ -11,6 +11,9 @@ const locations = {
   1: "api.pcloud.com",
   2: "eapi.pcloud.com",
 };
+
+const locationid = 2;
+
 export default function ApiMethod(method: string, options: ApiMethodOptions = {}): Promise<ApiResult> {
   const { apiServer = defaultApiServer, apiProtocol = "https", params = {}, ...requestParams } = options;
 
