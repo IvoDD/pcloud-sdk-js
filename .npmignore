@@ -3,3 +3,4 @@ __tests__
 .vscode
 build
 flow-typed
+src

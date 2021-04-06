@@ -21,7 +21,7 @@
     "compile-web": "./node_modules/.bin/webpack -p",
     "build-web": "yarn clean-web && yarn compile-web",
     "watch-web": "./node_modules/.bin/webpack -w",
-    "build-node": "./node_modules/.bin/babel src --out-dir lib",
+    "build-node": "./node_modules/.bin/babel help --out-dir lib",
     "watch-node": "./node_modules/.bin/babel -w src --out-dir lib",
     "prepublishOnly": "yarn build-node && yarn build-web",
     "start": "node server.js",
